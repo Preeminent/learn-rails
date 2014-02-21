@@ -22,10 +22,10 @@ group :development do
   gem 'rails_layout', '~> 1.0.5'
 end
 group :development do
-  gem 'rails_12factor'
   gem 'thin'
 end
 group :production do
+  gem 'rails_12factor'
   gem 'pg'
 end
 group :development, :test do
